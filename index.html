@@ -8,5 +8,22 @@
 </head>
 <body>
    <h1>#Ayre</h1>
+   <section class="level45">
+      <h2>第45關</h2>
+      <p>以下有兩顆按鈕，請使用 JavaScript 語法，操控點擊後，能夠轉址到對應網站去</p>
+      <button class="google" onclick="toGoogle()">連到 Google</button>
+      <button class="yahoo" onclick="toYahoo()">連到 Yahoo</button>
+   </section>
+   <section class="level46">
+      <h2>第46關</h2>
+      <p>以下有兩顆按鈕，是部落格推薦連結，請抓取 data-id 的值後進行轉址：</p>
+      <ol>
+         <li>點擊 Tom 時，網址為 https://www.hexschool.com/?recommend=tom</li>
+         <li>點擊 John 時，網址為 https://www.hexschool.com/?recommend=John</li>
+      </ol>
+      <button class="tom" data-id="tom" onclick="btnTom()">Tom 推薦六角學院</button>
+      <button class="John" data-id="John" onclick="btnJohn()">John 推薦六角學院</button>
+   </section>
+   <script src="all.js"></script>
 </body>
 </html>
