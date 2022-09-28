@@ -18,3 +18,7 @@ function btnJohn(){
    const john = document.querySelector('.John').dataset;
    location.href = `${linkUrl}${john.id}`
 }
+
+const url = 'https://www.hexschool.com/?recommend=amy';
+let userName = url.split('=')[1];
+console.log(url,userName);
